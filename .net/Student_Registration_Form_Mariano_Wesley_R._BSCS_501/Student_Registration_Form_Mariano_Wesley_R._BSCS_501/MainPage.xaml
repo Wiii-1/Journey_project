@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Student_Registration_Form_Mariano_Wesley_R._BSCS_501.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <HorizontalStackLayout>
+                <Label Text="Student Registration Form"/>
+                <Label Text="Roll no.:"/>
+                <Label Text="Student name:"/>
+                <Label Text="Father's name:"/>
+                <Label Text="Mother's name:"/>
+                <Label Text="Date of birth:"/>
+                <Label Text="Mobile no.:"/>
+                <Label Text="Email Id:"/>
+                <Label Text="Passwrod:"/>
+                <Label Text="Gender:"/>
+                <Label Text="Department:"/>
+                <Label Text="Course:"/>
+                <Label Text="Student Photo:"/>
+                <Label Text="City:"/>
+                <Label Text="Address:"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Entry Placeholder="Enter roll number."/>
+                <HorizontalStackLayout>
+                    <Entry Placeholder="Enter last name"/>
+                    <Entry Placeholder="Enter first name"/>
+                </HorizontalStackLayout>
+                <Entry Placeholder="Enter father's name"/>
+                <Entry Placeholder="Enter Mother's name"/>
+                
+                
+
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

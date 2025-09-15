@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\Journey_project\\.net\\AwesomeMAUIApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{141AD66B-6D6D-4F5C-A4AF-416267446FB1}|AwesomeMAUIApp\\AwesomeMAUIApp.csproj|b:\\journey_project\\.net\\awesomemauiapp\\awesomemauiapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{141AD66B-6D6D-4F5C-A4AF-416267446FB1}|AwesomeMAUIApp\\AwesomeMAUIApp.csproj|solutionrelative:awesomemauiapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141AD66B-6D6D-4F5C-A4AF-416267446FB1}|AwesomeMAUIApp\\AwesomeMAUIApp.csproj|b:\\journey_project\\.net\\awesomemauiapp\\awesomemauiapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141AD66B-6D6D-4F5C-A4AF-416267446FB1}|AwesomeMAUIApp\\AwesomeMAUIApp.csproj|solutionrelative:awesomemauiapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "B:\\Journey_project\\.net\\AwesomeMAUIApp\\AwesomeMAUIApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "AwesomeMAUIApp\\MainPage.xaml",
+              "ToolTip": "B:\\Journey_project\\.net\\AwesomeMAUIApp\\AwesomeMAUIApp\\MainPage.xaml*",
+              "RelativeToolTip": "AwesomeMAUIApp\\MainPage.xaml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-16T17:00:49.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "B:\\Journey_project\\.net\\AwesomeMAUIApp\\AwesomeMAUIApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "AwesomeMAUIApp\\MainPage.xaml.cs",
+              "ToolTip": "B:\\Journey_project\\.net\\AwesomeMAUIApp\\AwesomeMAUIApp\\MainPage.xaml.cs*",
+              "RelativeToolTip": "AwesomeMAUIApp\\MainPage.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:00:39.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

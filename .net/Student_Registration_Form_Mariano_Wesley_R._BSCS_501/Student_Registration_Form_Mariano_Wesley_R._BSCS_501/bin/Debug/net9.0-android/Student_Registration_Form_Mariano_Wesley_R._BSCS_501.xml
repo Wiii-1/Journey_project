@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Student_Registration_Form_Mariano_Wesley_R._BSCS_501</name>
+    </assembly>
+    <members>
+        <member name="T:Student_Registration_Form_Mariano_Wesley_R._BSCS_501.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SRF_Mariano.MainPage"
+             Background="DimGray">
+
+    <ScrollView>
+
+        <FlexLayout Direction="Column" Padding="20" AlignItems="Start" JustifyContent="Center" Grow="1" Wrap="NoWrap" >
+            <Label Text="Student Registration Form"  FontSize="25" FontAttributes="Bold" />
+
+            <!-- Roll number   -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+                <Label Text="Roll no. :" WidthRequest="120" FontSize="16" />
+                <Entry x:Name="RollNo" Placeholder="Enter Roll No." WidthRequest="240" FontSize="16"/>
+            </FlexLayout>
+            <!-- Student name  -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+                <Label Text="Student name: " WidthRequest="120" FontSize="16" />
+                <Entry x:Name="Lastname" Placeholder="Last name" WidthRequest="120" FontSize="16"/>
+                <Entry x:Name="Firstname" Placeholder="First name" WidthRequest="120" FontSize="16"/>
+            </FlexLayout>
+            <!-- Father's name -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+                <Label Text="Father's name: " WidthRequest="120" FontSize="16"/>
+                <Entry x:Name="Father" Placeholder="Enter Father's name" WidthRequest="240" FontSize="16"/>
+            </FlexLayout>
+            <!-- Mother's name -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+                <Label Text="Mother's name: " WidthRequest="120" FontSize="16"/>
+                <Entry x:Name="Mother" Placeholder="Enter Mother's name" WidthRequest="240" FontSize="16"/>
+            </FlexLayout>
+            <!-- Date of Birth -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+                <Label Text="Date of birth: " WidthRequest="120" FontSize="16"/>
+                <Entry x:Name="Day" Placeholder="Day"/>
+                <Label Text="-"/>
+                <Entry x:Name="Month" Placeholder="Month"/>
+                <Label Text="-"/>
+                <Entry x:Name="Year" Placeholder="Year"/>
+                <Label Text="(DD-MM-YYY)" FontAttributes="Italic" />
+            </FlexLayout>
+            <!-- Mobile number -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+
+                <Label x:Name="MobileEntry" Text="Mobile number: " WidthRequest="120" FontSize="16"/>
+                
+
+                <Picker x:Name="CountryCode" WidthRequest="80" HorizontalOptions="Start" HorizontalTextAlignment="Justify" TextColor="Black">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}" >
+                            <x:String>+1</x:String>
+                            <x:String>+109</x:String>
+                            <x:String>+63</x:String>
+                            <x:String>+91</x:String>
+                            <x:String>+34</x:String>
+                            <x:String>+10</x:String>
+                            <x:String>+23</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+
+                <Label Text="-"/>
+                <Entry Placeholder="Enter mobile number" WidthRequest="185" FontSize="16"/>
+
+
+            </FlexLayout>
+            <!-- Email Id      -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+                <Label Text="Email address: " WidthRequest="120" FontSize="16"/>
+                <Entry x:Name="Emailadd" Placeholder="Enter Email Address" WidthRequest="240" FontSize="16" />
+            </FlexLayout>
+            <!-- Password      -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+                <Label Text="Password: " WidthRequest="120" FontSize="16"/>
+                <Entry x:Name="Password" Placeholder="Enter password" IsPassword="True" FontSize="16" />
+            </FlexLayout>
+            <!-- Gender        -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+                <Label Text="Gender: " WidthRequest="120" FontSize="16"/>
+                <RadioButton x:Name="MR" Content="Male"/>
+                <RadioButton x:Name="MRS" Content="female"/>
+            </FlexLayout>
+            <!-- Department    -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+                <Label Text="Department: " WidthRequest="110" FontSize="16"/>
+                <CheckBox x:Name="CSE" MaximumWidthRequest="30" />
+                <Label Text="CSE" FontSize="16" WidthRequest="35" />
+                <CheckBox x:Name="IT" MaximumWidthRequest="25"/>
+                <Label Text="IT" FontSize="16" WidthRequest="15"/>
+                <CheckBox x:Name="ECE" MaximumWidthRequest="25"/>
+                <Label Text="ECE" FontSize="16" WidthRequest="35"/>
+                <CheckBox x:Name="Civil" MaximumWidthRequest="25"/>
+                <Label Text="Civil" FontSize="16" WidthRequest="35"/>
+                <CheckBox x:Name="Mech" MaximumWidthRequest="25"/>
+                <Label Text="Mech" FontSize="16" WidthRequest="45"/>
+            </FlexLayout>
+            <!-- Course        -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+
+                <Label Text="Course: " WidthRequest="120" FontSize="16 "/>
+                <Picker x:Name="CoursePicker" WidthRequest="240"  TextColor="Black">
+                    <Picker.Items>
+                        <x:String>CSE</x:String>
+                        <x:String>IT</x:String>
+                        <x:String>ECE</x:String>
+                        <x:String>Civil</x:String>
+                        <x:String>Mech</x:String>
+                    </Picker.Items>    
+                </Picker>
+            </FlexLayout>
+            <!-- Student Photo -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,30,0,30">
+                <Label Text="Student Photo: " WidthRequest="120" FontSize="16"/>
+                <Button Text="Choose a file" WidthRequest="240" HeightRequest="10" Padding="5" Margin="10" Clicked="OnUploadPhotoClicked"/>
+                <Image x:Name="UserPhoto" WidthRequest="100" HeightRequest="100" Margin="10,0,0,0"/>
+            </FlexLayout>
+            <!-- City          -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,30">
+                <Label Text="City: " WidthRequest="120" FontSize="16"/>
+                <Entry x:Name="City" Placeholder="Enter City" WidthRequest="240" />
+                
+            </FlexLayout>
+            <!-- Address       -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Start" Margin="0,20">
+                <Label Text="Address: " WidthRequest="120" FontSize="16"/>
+                <Entry x:Name="Address" Placeholder="Enter Address" WidthRequest="240"/>
+            </FlexLayout>
+
+            <Button x:Name="btnreg" Text="Register" WidthRequest="150" HeightRequest="35" Padding="5" Margin="0,30,0,30" HorizontalOptions="CenterAndExpand" Clicked="OnRegisterClicked" />
+        </FlexLayout>
+
+        
+
+    </ScrollView>
+
+</ContentPage>

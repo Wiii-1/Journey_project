@@ -1,0 +1,11 @@
+B:\Journey_project\.net\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+B:\Journey_project\.net\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+B:\Journey_project\.net\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+B:\Journey_project\.net\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+B:\Journey_project\.net\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+B:\Journey_project\.net\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+B:\Journey_project\.net\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+B:\Journey_project\.net\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+B:\Journey_project\.net\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+B:\Journey_project\.net\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+B:\Journey_project\.net\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\Student_Registration_Form_Mariano_Wesley_R._BSCS_501\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Student_Registration_Form_Mariano_Wesley_R._BSCS_501.GeneratedMSBuildEditorConfig.editorconfig
